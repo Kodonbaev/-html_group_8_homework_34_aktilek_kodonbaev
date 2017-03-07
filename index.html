@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exam_4</title>
+
+</head>
+<body>
+<div class="header-bg">
+    <header class="header clearfix">
+        <div class="container">
+            <div class="logo"><a href="#"><img src="uploads/logo.png" width="117" height="27" alt="Logo"></a></div>
+            <div class="header-nav clearfix">
+                <div class="icon-menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <nav class="menu-nav">
+                    <a href="#">main slide</a>
+                    <a data-scroll href="#gallery">gallery</a>
+                    <a data-scroll href="#clients">clients say</a>
+                    <a data-scroll href="#contact">contacts</a>
+                </nav>
+            </div>
+            <div class="call-us">
+                <a href="#" id="popup-open">Call us</a>
+            </div>
+        </div>
+    </header>
+</div>
+<div id="gallery" class="gallery">
+    <div class="container clearfix">
+        <h2 class="gallery-main">gallery</h2>
+        <div class="flex-container">
+            <div class="flex-item"><img src="uploads/gallery-pic-1.jpg" width="362" height="243"
+                                        alt="Nature picture">
+            </div>
+            <div class="flex-item"><img src="uploads/gallery-pic-2.jpg" width="362" height="243"
+                                        alt=" Nature picture">
+            </div>
+            <div class="flex-item"><img src="uploads/gallery-pic-3.jpg" width="362" height="243"
+                                        alt=" Nature picture">
+            </div>
+            <div class="flex-item"><img src="uploads/gallery-pic-4.jpg" width="362" height="243" alt=" Nature
+                                             picture">
+            </div>
+            <div class="flex-item"><img src="uploads/gallery-pic-5.jpg" width="362" height="243" alt=" Nature
+                                             picture">
+            </div>
+            <div class="flex-item"><img src="uploads/gallery-pic-6.jpg" width="362" height="243" alt=" Nature
+                                             picture">
+            </div>
+        </div>
+    </div>
+</div>
+<div  class="social">
+    <div class="container flex-social">
+        <img src="uploads/social/social-slack.png" width="82" height="24" alt="Social-logo">
+        <img src="uploads/social/social-pic2.png" width="38" height="32" alt="Social-logo">
+        <img src="uploads/social/social-gg.png" width="80" height="29" alt="Social-logo">
+        <img src="uploads/social/social-fb.png" width="82" height="29" alt="Social-logo">
+        <img src="uploads/social/social-spotif.png" width="80" height="29" alt="Social-logo">
+        <img src="uploads/social/social-rebook.png" width="80" height="29" alt="Social-logo">
+    </div>
+
+</div>
+<div class="wrap-block">
+    <div id="clients" class="comments">
+        <div class="container">
+            <h2 class="gallery-main">our Clients say</h2>
+            <div class="flex-container">
+                <div class="comments-content">
+                    <span class="icon-comments"></span>
+                    <p class="comments-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        dolores
+                        expedita libero maiores nam, natus similique? Ad aliquid, at distinctio doloribus labore,
+                        molestias
+                        nemo non nulla officiis quas, tempore vitae?
+                    </p>
+                    <div class="man clearfix">
+                        <img src="uploads/photo-man-1.png" width="65" height="65" alt="">
+                        <div class="text-man">
+                            <span><a href="#">Pavliv Yaroslav</a> Web designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments-content">
+                    <span class="icon-comments"></span>
+                    <p class="comments-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+                        dolores
+                        expedita libero maiores nam, natus similique? Ad aliquid, at distinctio doloribus labore,
+                        molestias
+                        nemo non nulla officiis quas, tempore vitae?
+                    </p>
+                    <div class="man clearfix">
+                        <img src="uploads/photo-man-2.png" width="65" height="65" alt="">
+                        <div class="text-man">
+                            <span><a href="#">John Scott</a> The Fringe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-contact">
+        <div id="contact" class="contact">
+            <h2 class="contact-main">contact</h2>
+            <span>Sign up for our newsletter to receive updates</span>
+            <form id="registration-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" id="phone" >
+                <input type="submit" value="Send">
+            </form>
+
+        </div>
+    </div>
+</div>
+<a href="#" class="scrollup"><span class="fa fa-arrow-circle-o-up" aria-hidden="true"></span></a>
+<div class="popup-wrap">
+    <div class="popup wrap-contact">
+        <div class="contact">
+            <h2 class="contact-main">contact</h2>
+            <span>Sign up for our newsletter to receive updates</span>
+            <form id="registration-form2">
+                <input type="text" placeholder="Name" >
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" id="phone-popup">
+                <input type="submit" value="Send">
+            </form>
+            <a href="#" id="popup-close">X</a>
+        </div>
+    </div>
+</div>
+<script src="vendor/jquery/jquery-3.1.1.min.js"></script>
+<script src="vendor/validate/jquery.validate.min.js"></script>
+<script src="vendor/validate/jquery.maskedinput.min.js"></script>
+<script src="vendor/scroll/scrollup.js"></script>
+<script src="vendor/scroll/smooth-scroll.js"></script>
+<script src="js/main.js"></script>
+<script>
+    smoothScroll.init();
+</script>
+</body>
+</html>
