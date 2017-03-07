@@ -267,7 +267,8 @@ form {
     display: none;
 }
 .popup {
-    display: none;
+    margin-top: 150px;
+    display: block;
 }
 .scrollup {
     font-size: 2em;
